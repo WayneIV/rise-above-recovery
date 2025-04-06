@@ -1,0 +1,29 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Rise Above Recovery Home",
+      "file": "${workspaceFolder}/index.html"
+    },
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Mission Page",
+      "file": "${workspaceFolder}/mission.html"
+    },
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Events Page",
+      "file": "${workspaceFolder}/events.html"
+    },
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Resources Page",
+      "file": "${workspaceFolder}/resources.html"
+    }
+  ]
+}

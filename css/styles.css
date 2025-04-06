@@ -1,0 +1,45 @@
+/* Shared CSS File for Rise Above Recovery */
+
+body {
+  @apply bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-gray-100;
+}
+
+header {
+  @apply bg-gray-800 shadow fixed top-0 left-0 w-full z-50;
+}
+
+footer {
+  @apply bg-gray-900 text-white py-10 mt-10;
+}
+
+main {
+  @apply pt-28 pb-20 px-6 max-w-4xl mx-auto;
+}
+
+nav a {
+  @apply text-sm font-semibold text-gray-300 hover:text-blue-300;
+}
+
+h1,
+h2,
+h3 {
+  @apply text-blue-300;
+}
+
+a {
+  @apply hover:underline;
+}
+
+/* Additional customizations */
+.grid div {
+  @apply bg-gray-900 p-6 rounded-lg shadow-md hover:bg-gray-800;
+}
+
+footer div h3 {
+  @apply text-xl font-bold mb-2;
+}
+
+footer p,
+footer a {
+  @apply text-gray-300;
+}

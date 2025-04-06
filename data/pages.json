@@ -1,0 +1,84 @@
+{
+  "pages": [
+    {
+      "name": "Home",
+      "filename": "index.html",
+      "description": "Main landing page introducing Rise Above Recovery, featuring sober living news and resources."
+    },
+    {
+      "name": "Mission",
+      "filename": "mission.html",
+      "description": "Detailed explanation of the mission and values behind Rise Above Recovery."
+    },
+    {
+      "name": "Events",
+      "filename": "events.html",
+      "description": "Upcoming events, community gatherings, and training related to recovery support."
+    },
+    {
+      "name": "Resources Overview",
+      "filename": "resources.html",
+      "description": "Overview of all resources categorized for easy access."
+    },
+    {
+      "name": "Mental Health Resources",
+      "filename": "mental-health-resources.html",
+      "description": "Comprehensive list of mental health support services and crisis lines in Iowa."
+    },
+    {
+      "name": "Faith-Based Resources",
+      "filename": "faith-based-resources.html",
+      "description": "Collection of faith-centered recovery programs and community support initiatives."
+    },
+    {
+      "name": "Jobs & Skills Resources",
+      "filename": "jobs-skills-resources.html",
+      "description": "Resources for skill development, employment opportunities, and workforce readiness programs."
+    },
+    {
+      "name": "Emergency & Helpline Contacts",
+      "filename": "emergency-contacts.html",
+      "description": "Immediate crisis support contacts and helpline numbers for urgent assistance."
+    },
+    {
+      "name": "Housing Resources",
+      "filename": "housing-resources.html",
+      "description": "Housing options focused on sober living, transitional housing, and support for stability."
+    },
+    {
+      "name": "Transportation Resources",
+      "filename": "transportation-resources.html",
+      "description": "Information on transportation options including public transit and specialized services for recovery community access."
+    },
+    {
+      "category": "Mental Health",
+      "filename": "mental-health-resources.html",
+      "description": "Support services and crisis lines for mental health in Iowa."
+    },
+    {
+      "category": "Faith-Based",
+      "filename": "faith-based-resources.html",
+      "description": "Faith-based recovery programs and support initiatives."
+    },
+    {
+      "category": "Jobs & Skills",
+      "filename": "jobs-skills-resources.html",
+      "description": "Resources for employment, career-building, and skill enhancement."
+    },
+    {
+      "category": "Emergency & Helpline Contacts",
+      "filename": "emergency-contacts.html",
+      "description": "Immediate assistance contacts and crisis helplines."
+    },
+    {
+      "category": "Housing",
+      "filename": "housing-resources.html",
+      "description": "Transitional housing, sober living environments, and supportive housing resources."
+    },
+    {
+      "category": "Transportation",
+      "filename": "transportation-resources.html",
+      "description": "Reliable local transportation resources for recovery and daily needs."
+    }
+  ]
+}

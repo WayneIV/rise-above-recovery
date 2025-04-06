@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rise Above Recovery</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-gray-100">
+  <!-- Navigation Bar -->
+  <header class="bg-gray-800 shadow fixed top-0 left-0 w-full z-50">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between h-16">
+      <h1 class="text-xl font-bold text-blue-300">Rise Above Recovery</h1>
+      <nav class="relative">
+        <button type="button" class="md:hidden text-gray-300 focus:outline-none" id="menu-toggle"
+          title="Toggle Navigation Menu">
+          <i class="fas fa-bars text-xl"></i>
+        </button>
+        <ul id="nav-menu" class="hidden md:flex space-x-6 text-sm font-semibold text-gray-300">
+          <li><a href="#home" class="hover:text-blue-300">Home</a></li>
+          <li><a href="mission.html" class="hover:text-blue-300">Mission</a></li>
+          <li><a href="#events" class="hover:text-blue-300">Events</a></li>
+          <li class="relative group">
+            <a href="#resources" class="hover:text-blue-300">Resources</a>
+            <ul class="absolute hidden group-hover:block bg-gray-800 text-gray-300 rounded-md shadow-lg mt-2">
+              <li><a href="#news" class="block px-4 py-2 hover:text-blue-300">News</a></li>
+              <li><a href="#guides" class="block px-4 py-2 hover:text-blue-300">Guides</a></li>
+              <li><a href="#support" class="block px-4 py-2 hover:text-blue-300">Support</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="mobile-menu" class="md:hidden hidden px-4 pb-4">
+      <ul class="space-y-2 text-sm font-semibold text-gray-300">
+        <li><a href="#home" class="block hover:text-blue-300">Home</a></li>
+        <li><a href="mission.html" class="block hover:text-blue-300">Mission</a></li>
+        <li><a href="#events" class="block hover:text-blue-300">Events</a></li>
+        <li>
+          <a href="#resources" class="block hover:text-blue-300">Resources</a>
+          <ul class="pl-4 mt-2 space-y-1">
+            <li><a href="#news" class="block hover:text-blue-300">News</a></li>
+            <li><a href="#guides" class="block hover:text-blue-300">Guides</a></li>
+            <li><a href="#support" class="block hover:text-blue-300">Support</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero/Home Section -->
+  <section id="home" class="pt-24 pb-16 bg-cover bg-center text-gray-100 px-6 hero-bg">
+    <div class="bg-black bg-opacity-70 p-8 rounded-xl max-w-3xl mx-auto text-center" data-aos="fade-up">
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Rise Above Recovery</h1>
+      <p class="text-lg md:text-xl mb-6 leading-relaxed">
+        Structured Sober Living in Charles City, Iowa<br>
+        <span class="italic text-gray-300">Empowering Lives, Restoring Dignity, Building Community</span>
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="mission.html"
+          class="bg-blue-500 text-white font-semibold px-6 py-3 rounded-md hover:bg-blue-600 transition inline-flex items-center justify-center">
+          <i class="fas fa-heart mr-2"></i> Our Mission
+        </a>
+        <a href="#news"
+          class="bg-green-500 text-white font-semibold px-6 py-3 rounded-md hover:bg-green-600 transition inline-flex items-center justify-center">
+          <i class="fas fa-newspaper mr-2"></i> Recovery News
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- News Section -->
+  <section id="news" class="py-20 bg-gray-800 text-gray-100" data-aos="fade-up">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-3xl md:text-4xl font-bold text-center text-blue-200 mb-10">Sober Living News & Resources</h2>
+      <ul class="space-y-8">
+        <li>
+          <a href="https://www.samhsa.gov/recovery" target="_blank" rel="noopener"
+            class="text-blue-300 font-bold text-lg hover:underline inline-flex items-center">
+            <i class="fas fa-book-open mr-2"></i> SAMHSA: What Is Recovery?
+          </a>
+          <p class="text-gray-300 mt-2">Gain comprehensive insights and expert guidance on the journey of recovery.
+            Discover definitions, key principles, and supportive resources from the Substance Abuse and Mental Health
+            Services Administration.</p>
+        </li>
+        <li>
+          <a href="https://www.narronline.org" target="_blank" rel="noopener"
+            class="text-blue-300 font-bold text-lg hover:underline inline-flex items-center">
+            <i class="fas fa-home mr-2"></i> NARR: National Alliance for Recovery Residences
+          </a>
+          <p class="text-gray-300 mt-2">Explore standards and best practices for recovery residences to enhance and
+            support sustainable recovery environments.</p>
+        </li>
+        <li>
+          <a href="https://www.na.org" target="_blank" rel="noopener"
+            class="text-blue-300 font-bold text-lg hover:underline inline-flex items-center">
+            <i class="fas fa-users mr-2"></i> Narcotics Anonymous
+          </a>
+          <p class="text-gray-300 mt-2">Join a supportive community with resources, meetings, and literature dedicated
+            to helping individuals overcome addiction.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-10">
+    <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <!-- About Section -->
+      <div>
+        <h3 class="text-lg font-bold text-blue-300 mb-4">About Us</h3>
+        <p class="text-sm text-gray-300">
+          Rise Above Recovery provides structured sober living in Charles City, Iowa. Empowering lives, restoring
+          dignity, and building community.
+        </p>
+      </div>
+      <!-- Quick Links -->
+      <div>
+        <h3 class="text-lg font-bold text-blue-300 mb-4">Quick Links</h3>
+        <ul class="space-y-2 text-sm">
+          <li><a href="index.html#home" class="hover:text-blue-300">Home</a></li>
+          <li><a href="mission.html" class="hover:text-blue-300">Mission</a></li>
+          <li><a href="index.html#events" class="hover:text-blue-300">Events</a></li>
+          <li><a href="index.html#resources" class="hover:text-blue-300">Resources</a></li>
+        </ul>
+      </div>
+      <!-- Contact Section -->
+      <div>
+        <h3 class="text-lg font-bold text-blue-300 mb-4">Contact Us</h3>
+        <ul class="space-y-2 text-sm">
+          <li><i class="fas fa-envelope mr-2"></i> <a href="mailto:info@riseaboverecovery.com"
+              class="hover:text-blue-300">info@riseaboverecovery.com</a></li>
+          <li><i class="fas fa-phone mr-2"></i> <a href="tel:+1234567890" class="hover:text-blue-300">+1 (234)
+              567-890</a></li>
+          <li><i class="fas fa-map-marker-alt mr-2"></i> Charles City, Iowa</li>
+        </ul>
+      </div>
+    </div>
+    <div class="mt-8 text-center text-sm text-gray-400">
+      <p>&copy; 2024 Rise Above Recovery. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      AOS.init();
+      const toggle = document.getElementById('menu-toggle');
+      const menu = document.getElementById('mobile-menu');
+      toggle.addEventListener('click', () => {
+        menu.classList.toggle('hidden');
+      });
+    });
+  </script>
+</body>
+
+</html>

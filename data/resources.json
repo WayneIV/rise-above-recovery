@@ -1,0 +1,34 @@
+{
+  "resources": [
+    {
+      "category": "Mental Health",
+      "filename": "mental-health-resources.html",
+      "description": "Support services and crisis lines for mental health in Iowa."
+    },
+    {
+      "category": "Faith-Based",
+      "filename": "faith-based-resources.html",
+      "description": "Faith-based recovery programs and support initiatives."
+    },
+    {
+      "category": "Jobs & Skills",
+      "filename": "jobs-skills-resources.html",
+      "description": "Resources for employment, career-building, and skill enhancement."
+    },
+    {
+      "category": "Emergency & Helpline Contacts",
+      "filename": "emergency-contacts.html",
+      "description": "Immediate assistance contacts and crisis helplines."
+    },
+    {
+      "category": "Housing",
+      "filename": "housing-resources.html",
+      "description": "Transitional housing, sober living environments, and supportive housing resources."
+    },
+    {
+      "category": "Transportation",
+      "filename": "transportation-resources.html",
+      "description": "Reliable local transportation resources for recovery and daily needs."
+    }
+  ]
+}
