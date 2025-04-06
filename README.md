@@ -1,6 +1,6 @@
 Rise Above Recovery
 
-Empowering lives through sober living and community support.**
+Empowering lives through sober living and community support.
 
 🏡 Project Overview
 
